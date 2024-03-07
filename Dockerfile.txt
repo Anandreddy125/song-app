@@ -3,7 +3,6 @@ FROM node:19-alpine3.15
 WORKDIR /song-app
 
 COPY . /song-app
-RUN npm install 
 
 EXPOSE 3000
 
